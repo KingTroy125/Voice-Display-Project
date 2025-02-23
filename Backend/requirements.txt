@@ -1,0 +1,3 @@
+pip install flask speechrecognition pyaudio
+pip install flask_cors
+pip install pyaudio

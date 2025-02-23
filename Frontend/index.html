@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Voice Display | Tristan Hendricks</title>
+</head>
+<body>
+    <div class="container">
+        <div class="mic-icon">🎙️</div>
+        <h1>Voice Display</h1>
+        <div class="button-container">
+            <button onclick="startListening()" id="startBtn">Start Listening</button>
+            <button onclick="stopListening()" id="stopBtn" disabled>Stop Listening</button>
+        </div>
+        <div id="output">Waiting for speech...</div>
+        <div class="wave">
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+        </div>
+        <div class="status" id="status"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
